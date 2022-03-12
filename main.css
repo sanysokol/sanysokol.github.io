@@ -1,0 +1,236 @@
+a,a:visited{text-emphasis: none;}
+a:hover{text-emphasis: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+body{font-family: Arial;}
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	max-width: 950px;
+	margin: 0px auto;
+}
+.header {
+	min-width: 100%;
+	margin: 33px 0px 0px 0px;
+	border-bottom: solid 1px;
+
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+}
+.container_home {
+}
+.container_about {
+}
+.container_skills {
+}
+.container_portfolio {
+}
+.container_contacts {
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*flex-wrap: wrap;*/
+	align-items: flex-end;
+	min-height: 185px;
+	font-family: Gilroy-Bold;
+}
+.content_name {
+	font-size: 48px;
+	max-width: 220px; 
+	margin-bottom: 30px;
+}
+.content_info {
+	font-size: 18px;
+	max-width: 145px;
+	margin-bottom: 50px;
+}
+.content_language {
+	font-size: 16px;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	margin-bottom: 54px;
+}
+.content_foto {
+}
+.content_foto img{
+	max-width: 950px;
+	min-width: 950;
+	min-height: 387;
+	max-height: 387;
+	margin-bottom: 104px;
+}
+.about {
+	font-family: Gilroy-Bold;
+	margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+}
+.about_header {
+	font-size: 34px;
+	text-align: center;
+}
+.about_content {
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 107px;
+	font-size: 18px;
+	max-width: 485px;
+	align-self: center;
+}
+.skills {
+	margin-top: 91px;
+	margin-bottom: 178px;
+	display: flex;
+	flex-direction: column;
+	font-family: Gilroy-Bold;
+}
+.skills_header {
+	font-size: 34px;
+	text-align: center;
+}
+.skills_text {
+	margin-top: 69px;
+	align-self: center;
+	text-align: center;
+}
+.skills_container {
+	margin-top: 84px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+}
+.skills_container_photoshop {}
+.skills_container_photoshop_icon img{
+	max-width: 82px;
+}
+.skills_container_photoshop_text {
+	max-width: 70px;
+	text-align: center;
+	margin-top: 25px;
+}
+.skills_container_photoshop_star {
+	
+}
+.skills_container_illustrator {}
+.skills_container_illustrator_icon img{
+	max-width: 82px;
+}
+.skills_container_illustrator_text {
+	max-width: 70px;
+	text-align: center;
+	margin-top: 25px;
+}
+.skills_container_illustrator_star {
+	
+}
+.after_effects {}
+.after_effects_icon img{
+	max-width: 82px;
+}
+.after_effects_text {
+	max-width: 70px;
+	text-align: center;
+	margin-top: 25px;
+}
+.after_effects_star {
+	
+}
+.figma {}
+.figma_icon img{
+	max-width: 82px;
+	max-height: 82px;
+}
+.figma_text {
+	max-width: 70px;
+	text-align: center;
+	margin-top: 25px;
+}
+.figma_star {
+
+}
+.portfolio {
+	margin-top: 91px;
+	font-family: Gilroy-Bold;
+}
+.portfolio_header {
+	font-size: 34px;
+	text-align: center;
+}
+.portfolio_work_1 {}
+.portfolio_work_1_foto img{
+	margin-top: 47px;
+	max-width: 950px;
+	min-width: 950px;
+	min-height: 510px;
+	max-height: 510px;
+}
+.portfolio_work_1_link {
+	margin-top: 45px;
+	margin-bottom: 99px;
+	font-size: 18px;
+	text-align: center;
+}
+.portfolio_work_2 {}
+.portfolio_work_2_foto img{
+	max-width: 950px;
+	min-width: 950px;
+	min-height: 510px;
+	max-height: 510px;
+}
+.portfolio_work_2_link {
+	margin-top: 45px;
+	margin-bottom: 99px;
+	font-size: 18px;
+	text-align: center;
+}
+.portfolio_work_3 {}
+.portfolio_work_3_foto img{
+	max-width: 950px;
+	min-width: 950px;
+	min-height: 510px;
+	max-height: 510px;
+}
+.portfolio_work_3_link {
+	margin-top: 45px;
+	margin-bottom: 96px;
+	font-size: 18px;
+	text-align: center;
+}
+.contacts {
+}
+.contacts_header {
+	margin-top: 115px;
+	font-size: 34px;
+	text-align: center;
+}
+.contacts_text {
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+.contacts_button_email {}
+.contacts_social_media {
+	display: flex;
+	flex-direction: row;
+}
+.contacts_social_media_insta {}
+.contacts_social_media_website {}
+.contacts_social_media_telegramm {}
+.contacts_social_media_footer {
+	text-align: center;
+}
